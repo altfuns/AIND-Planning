@@ -211,7 +211,7 @@ class AirCargoProblem(Problem):
         return count
 
     def get_unsatisfied_goals(self, state: str):
-        """ Test the state to see if goal is reached
+        """ Gets the number of unsatisfied goals by the given state
 
         :param state: str representing state
         :return: int
